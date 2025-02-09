@@ -54,5 +54,11 @@ public class HelloController {
         public String saludar11(){
             return "Hola Sergio A01";
         }
+
+                //Otro comentario
+        @GetMapping("/hello12")
+        public String saludar12(){
+            return "Hola Sergio A02";
+        }
 }
 
